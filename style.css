@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.search-container{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding: 10px;
+}
+.search-btn{
+    height: fit-content;
+    margin-top: 16px;
+    margin-left: 10px;
+    background-color: rgb(17, 38, 202);
+    color: #fff;
+    padding: 7px;
+    border: none;
+    
+}
+.header-endline{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+/* weather container styles */
+.weather-container{
+    margin:auto;
+    background-color: rgb(9, 22, 123);
+    display:flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-top: 10px;
+    width: 50%;
+    color: #fff;
+}
+.city{
+    display: flex;
+}
+.degree-centi{
+    font-size: 36px;
+    margin-top:20px;
+  
+}
+.percentage{
+    display: flex; 
+    justify-content: space-around;
+      align-items: center;
+      text-align: center;
+}
+.winds,.humidity{
+    padding: 10px;
+}
