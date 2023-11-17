@@ -8,6 +8,11 @@
     text-align: center;
    padding: 10px;
 }
+.search-input{
+    height:fit-content;
+    margin-top: 19px;
+    
+}
 .search-btn{
     height: fit-content;
     margin-top: 16px;
@@ -38,10 +43,13 @@
     width: 50%;
     color: #fff;
 }
-.city{
+.city-name{
+    text-transform: capitalize;
+}
+.place{
     display: flex;
 }
-.degree-centi{
+.temperature{
     font-size: 36px;
     margin-top:20px;
   
@@ -52,6 +60,7 @@
       align-items: center;
       text-align: center;
 }
-.winds,.humidity{
+.pressure,.humidity{
     padding: 10px;
 }
+

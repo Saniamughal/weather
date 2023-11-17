@@ -7,7 +7,6 @@
     
 
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-GLhlTQ8iN17SmeKUc7Kj8FqFf1GJYTQQlm6Sj5C6B9AJT7xjF5RDIcu06+xyE0Hh" crossorigin="anonymous">
 
 </head>
 <body>
@@ -16,36 +15,35 @@
             <h1>Weather</h1>
         </div>
         <div class="search-container">
-            <h4>Search your city</h4>
-            <button class="search-btn">Search</button>
+            <input  class="search-input" id="Search-input" placeholder="search city here"></input>
+            <button class="search-btn" id="Search-btn">Search</button>
         <!-- <img src="./Images/search.png" alt="search weather"/> -->
-        </div>
-       
- 
+        </div> 
     </div>
     <div class="header-endline"></div>
     <!-- weather container at the center of the page  -->
     <div class="weather-container">
         <!-- show the city -->
-        <div class="city">
+        <div class="place">
             <img src="./Images/location.png" alt="location"/>
-            <h3>Rawalpindi</h3>
+            <h3 class="city-name" id="city"></h3>
         </div>
-        <!-- show the degree centigrade -->
-        <div class="degree-centi">
-         <h1>92</h1>
+        <!-- show the temperature in centigrade -->
+        <div class="temperature">
+         <h1 id="degree-centigrade"></h1>
         </div>
         <div class="percentage">
             <div class="humidity">
-                <p>humidity</p>
-                <p>32%</p>
+                <p>Humidity</p>
+                <p id="humidity-percentage"></p>
             </div>
-            <div class="winds">
-                <p>winds</p>
-                <p>32%</p>
+            <div class="pressure">
+                <p>Pressure</p>
+                <p id="pressure-percentage"></p>
             </div>
         </div>
- <!-- show the humidiy and winds percentage  -->
+ <!-- show the humidity and pressure percentage  -->
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
