@@ -1,5 +1,5 @@
 var userCurrentCity, cityName;
-const key = "d17ad73d809f05427c8fdfdcca78de33";
+
 const defaultCityName = "Islamabad";
 var city = document.getElementById("city");
 var temperature = document.getElementById("degree-centigrade");
